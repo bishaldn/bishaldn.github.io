@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+.img-h{
+    width: 16px;
+margin-right: 7px;
+color: blueviolet
+}
+body{
+    background-color: #fff;
+}
+nav{
+    display: flex;
+    width: 100%;
+    display: flex;
+    width: 100%;
+    margin-top: 2vh;
+    margin-left: 10px;
+    background: #fff;
+  
+}
+nav h4{
+    color: darkslategray;
+}
+nav ul{
+    display: flex;
+    gap: 3vw;
+    list-style: none;
+    justify-content: end;
+    width: 79%;
+    cursor: pointer;
+}
+nav ul li{
+font-size: 15px;
+}
