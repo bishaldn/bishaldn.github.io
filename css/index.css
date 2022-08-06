@@ -188,7 +188,7 @@ nav ul li a {
 
     .main .img-coding {
         width: 24vw;
-        height: 29vh;
+        height: 24vh;
     }
 
     .main .intro-text-1{
@@ -231,7 +231,7 @@ nav ul li a {
 
 .intro-text {
     gap: 2vw;
-    margin-top: 4vh;
+    margin-top: 2vh;
     margin-left: 29px;
 }
 
@@ -275,13 +275,13 @@ nav ul li a {
 @media(max-width:600px){
     .main .img-coding {
         width: 30vw;
-        height: 30vh;
+        height: 22vh;
     }  
 } 
 @media(max-width:500px){
     .main .img-coding {
         width: 34vw;
-        height: 32vh;
+        height: 22vh;
     }  
     .main .intro-text-3{
         font-size: 16px;
