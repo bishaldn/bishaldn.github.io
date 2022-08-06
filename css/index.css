@@ -18,9 +18,14 @@
     height: 20px;
     margin-top: 3px;
 }
+html{
+    overflow-x: hidden;
+}
 
 body {
     background-color: #fff;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
 nav {
@@ -35,7 +40,7 @@ nav {
 }
 
 nav h4 {
-    color: darkslategray;
+    color: rgb(19, 105, 105);
     width: 170px;
     margin-top: 3px;
 }
@@ -101,19 +106,48 @@ nav ul li a {
 @media(max-width:980px) {
     .mobile-nav-btn {
         display: block;
+        z-index: 999;
 
     }
+    .nav {
+        position: relative;
+        margin-top:0;
+    }
 
-    nav h4 {
+    .nav h4 {
         color: darkslategray;
         font-size: 15px;
         width: 170%;
         margin-left: 10px;
     }
-
-    nav ul li {
+     .nav-list{
+        /*display: none;*/
+        width: 100%;
+        height: 100vh;
+        background: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition:  all 0.5s linear;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .show .nav-list{
+        opacity: 1;
+        transform: translateX(0);
+        visibility: visible;
+        pointer-events: auto;
+    }
+    .show .mobile-nav-btn .nav-icon[name="hamB"]{
         display: none;
     }
-
-    .nav-icon {}
+    .show .mobile-nav-btn .nav-icon[name="close-nav"]{
+        display: block;
+    }
 }
