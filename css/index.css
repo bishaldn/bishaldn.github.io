@@ -191,27 +191,35 @@ nav ul li a {
         height: 24vh;
     }
 
-    .main .intro-text-1{
+    .main .intro-text-1 {
         font-size: 20px;
     }
-    .main .intro-text-2{
+
+    .main .intro-text-2 {
         font-size: 22px;
     }
-    .main .intro-text-3{
+
+    .main .intro-text-3 {
         font-size: 18px;
     }
-    .main .txt-wrapper{
+
+    .main .txt-wrapper {
         margin-top: 45px;
         margin-bottom: 0;
     }
-    .main .intro-text{
+
+    .main .intro-text {
         margin-top: 5px;
         margin-left: 19px;
+    }
+    .social {
+        width: 40%;
+        margin-top: 2vh;
     }
 }
 
 .img-coding {
-    width: 400px;
+    width: 304px;
 }
 
 .img-arrow {
@@ -241,17 +249,16 @@ nav ul li a {
 }
 
 .txt-wrapper {
-    margin-top: 16vh;
-    margin-bottom: 16vh;
+    margin-top: 12vh;
 }
 
 .hlw-txt {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 900;
 }
 
 .hlw-txt-1 {
-    font-size: 34px;
+    font-size: 31px;
     color: rgb(60, 255, 0);
     font-weight: 900;
 }
@@ -268,22 +275,47 @@ nav ul li a {
 }
 
 .intro-text-3 {
-    font-size: 30px;
+    font-size: 24px;
     color: black;
     font-weight: 900;
 }
-@media(max-width:600px){
+
+@media(max-width:600px) {
     .main .img-coding {
         width: 30vw;
         height: 22vh;
-    }  
-} 
-@media(max-width:500px){
+    }}
+
+@media(max-width:500px) {
     .main .img-coding {
         width: 34vw;
         height: 22vh;
-    }  
-    .main .intro-text-3{
+    }
+
+    .main .intro-text-3 {
         font-size: 16px;
     }
-} 
+}
+
+.github {
+    width: 45px;
+}
+
+.social {
+    display: flex;
+    gap: 2vw;
+    width: 27%;
+    justify-content: right;
+    cursor: pointer;
+}
+.social a:hover{
+    font-size:50px;
+}
+@media(max-width:800px){
+   .social{
+    width: 40%;
+   }
+   .github{
+    font-size: 35px;
+   }
+}
