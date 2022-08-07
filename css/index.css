@@ -215,7 +215,8 @@ nav ul li a {
 }
 
 .img-coding {
-    width: 304px;
+    width: 400px;
+    margin-top: 10vh;
 }
 
 .img-arrow {
@@ -224,9 +225,12 @@ nav ul li a {
 }
 
 .main {
-    margin-top: 10vh;
+    margin-top: 4vh;
     display: flex;
     justify-content: space-around;
+    background-image: url('../img/cloudBg.f28b5c6961fd82be839c.png');
+    background-size: 100vw 86vh;
+    height: 86vh;
 }
 
 .hello-text {
@@ -242,7 +246,7 @@ nav ul li a {
 .img-right {
     display: flex;
     justify-content: right;
-    height: 46vh;
+    height: max-content;
 }
 
 .txt-wrapper {
@@ -274,7 +278,7 @@ nav ul li a {
 .intro-text-3 {
     font-size: 20px;
     color: black;
-    font-weight: 900;
+
 }
 
 
