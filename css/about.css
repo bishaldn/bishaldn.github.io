@@ -221,19 +221,54 @@ h2 {
     }
 
     .tech-p-1 {
-        width: 6vw;
+        width: 5vw;
         margin-top: 5vh;
         text-align: center;
         font-size: 11px;
     }
-    .first-list{
-        margin: auto 18vw;
-    }
-    .second-list{
-        margin: auto 18vw;
-    }
-    .third-list{
+
+    .first-list {
         margin: auto 18vw;
     }
 
+    .second-list {
+        margin: auto 18vw;
+    }
+
+    .third-list {
+        margin: auto 18vw;
+    }
+
+}
+
+@media(max-width:600px) {
+    .tech-p-1 {
+        width: 8vw;
+        margin-top: 5vh;
+        text-align: center;
+        font-size: 11px;
+    }
+
+}
+
+.section {
+    margin-top: 9vh;
+    text-align: center;
+    height: 90vh;
+}
+
+.section h3 {
+    color: blue;
+    font-size: 30px;
+}
+.section-p{
+    text-align: center;
+    margin: auto 10vw;
+    margin-top: 9vh;
+}
+.social{
+
+}
+.github{
+    width:40px;
 }
