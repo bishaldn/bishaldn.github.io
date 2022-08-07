@@ -178,12 +178,13 @@ h2 {
 
     .nav-list {
         /*display: none;*/
-        width: 159%;
-        height: 45vh;
-        background: transparent;
+        width: 45%;
+        height: 31vh;
+        background: linear-gradient(to right,#a29b93,#06a7f4);
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 36px;
+        left: 51%;
+        right: 30%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -254,21 +255,30 @@ h2 {
 .section {
     margin-top: 9vh;
     text-align: center;
-    height: 90vh;
+    height: 65vh;
 }
 
 .section h3 {
     color: blue;
     font-size: 30px;
 }
-.section-p{
+
+.section-p {
     text-align: center;
     margin: auto 10vw;
     margin-top: 9vh;
 }
-.social{
 
+.social {}
+
+.github {
+    width: 40px;
 }
-.github{
-    width:40px;
+
+footer {
+    background-color: #263248;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    height: 9vh;
 }

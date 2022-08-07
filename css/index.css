@@ -80,13 +80,14 @@ na ul li a:visited {
     border-radius: 5px;
     border: 1px solid black;
 }
-.active:hover{
-    color:white;
+
+.active:hover {
+    color: white;
 }
 
 
 nav ul li a:hover {
-    color:#306bdb;
+    color: #306bdb;
 }
 
 .mobile-nav-btn {
@@ -130,12 +131,13 @@ nav ul li a {
 
     .nav-list {
         /*display: none;*/
-        width: 159%;
-        height: 45vh;
-        background: transparent;
+        width: 45%;
+        height: 31vh;
+        background: linear-gradient(to right,#a29b93,#06a7f4);
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 36px;
+        left: 51%;
+        right: 30%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -166,7 +168,7 @@ nav ul li a {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-top:2vh;
+        margin-top: 2vh;
     }
 
     .main .hlw-txt {
@@ -183,7 +185,8 @@ nav ul li a {
         width: 20px;
         font-weight: 100;
     }
-    .main .img-right{
+
+    .main .img-right {
         display: flex;
         justify-content: center;
         height: max-content;
@@ -193,7 +196,7 @@ nav ul li a {
     .main .img-coding {
         display: block;
         width: 230px;
-        margin-top:0;
+        margin-top: 0;
     }
 
     .main .intro-text-1 {
@@ -333,35 +336,47 @@ nav ul li a {
     height: 9vh;
     background: #306bdb;
     font-size: 16px;
-border: 1px;
-border-radius: 6px;
-color: white;
+    border: 1px;
+    border-radius: 6px;
+    color: white;
 }
-.btn-1:hover{
+
+.btn-1:hover {
     background: skyblue;
     color: white;
 }
+
 @media(max-width:900px) {
 
     .btn-1 {
-       width: 34vw;
-       height: 7vh;
+        width: 34vw;
+        height: 7vh;
     }
 
 }
+
 @media(max-width:600px) {
 
     .btn-1 {
-       width: 36vw;
-       height: 6vh;
+        width: 36vw;
+        height: 6vh;
     }
 
 }
+
 @media(max-width:500px) {
 
     .btn-1 {
-       width: 36vw;
-       height: 6vh;
+        width: 36vw;
+        height: 6vh;
     }
 
+}
+
+footer {
+    background-color: #263248;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    height: 9vh;
 }
