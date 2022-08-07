@@ -187,8 +187,7 @@ nav ul li a {
     }
 
     .main .img-coding {
-        width: 24vw;
-        height: 24vh;
+        display: none;
     }
 
     .main .intro-text-1 {
@@ -212,10 +211,7 @@ nav ul li a {
         margin-top: 5px;
         margin-left: 19px;
     }
-    .social {
-        width: 40%;
-        margin-top: 2vh;
-    }
+
 }
 
 .img-coding {
@@ -246,6 +242,7 @@ nav ul li a {
 .img-right {
     display: flex;
     justify-content: right;
+    height: 46vh;
 }
 
 .txt-wrapper {
@@ -275,22 +272,13 @@ nav ul li a {
 }
 
 .intro-text-3 {
-    font-size: 24px;
+    font-size: 20px;
     color: black;
     font-weight: 900;
 }
 
-@media(max-width:600px) {
-    .main .img-coding {
-        width: 30vw;
-        height: 22vh;
-    }}
 
 @media(max-width:500px) {
-    .main .img-coding {
-        width: 34vw;
-        height: 22vh;
-    }
 
     .main .intro-text-3 {
         font-size: 16px;
@@ -298,24 +286,51 @@ nav ul li a {
 }
 
 .github {
-    width: 45px;
+    width: 40px;
 }
 
 .social {
     display: flex;
     gap: 2vw;
-    width: 27%;
-    justify-content: right;
+    width: ;
+    justify-content: left;
     cursor: pointer;
+    margin-left: 25px;
+    margin-top: 10px;
 }
-.social a:hover{
-    font-size:50px;
+
+.social a:hover {
+    font-size: 50px;
 }
-@media(max-width:800px){
-   .social{
-    width: 40%;
-   }
-   .github{
-    font-size: 35px;
-   }
+
+@media(max-width:800px) {
+
+    .github {
+        font-size: 35px;
+        background: white;
+    }
+
+    .social {
+        
+    }
+}
+
+.btn {
+    margin-top: 4vh;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.btn-1 {
+    width: 20vw;
+    height: 9vh;
+    background: #306bdb;
+    font-size: 16px;
+border: 1px;
+border-radius: 6px;
+color: white;
+}
+.btn-1:hover{
+    background: skyblue;
+    color: white;
 }
