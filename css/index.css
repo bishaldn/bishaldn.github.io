@@ -169,6 +169,8 @@ nav ul li a {
     .main {
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        margin-top:2vh;
     }
 
     .main .hlw-txt {
@@ -185,9 +187,16 @@ nav ul li a {
         width: 20px;
         font-weight: 100;
     }
+    .main .img-right{
+        display: flex;
+        justify-content: center;
+        height: max-content;
+    }
 
     .main .img-coding {
-        display: none;
+        display: block;
+        width: 230px;
+        margin-top:0;
     }
 
     .main .intro-text-1 {
@@ -203,7 +212,7 @@ nav ul li a {
     }
 
     .main .txt-wrapper {
-        margin-top: 45px;
+        margin-top: -90px;
         margin-bottom: 0;
     }
 
@@ -260,7 +269,7 @@ nav ul li a {
 
 .hlw-txt-1 {
     font-size: 31px;
-    color: rgb(60, 255, 0);
+    color: yellow;
     font-weight: 900;
 }
 
