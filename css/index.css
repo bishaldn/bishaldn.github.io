@@ -310,9 +310,6 @@ nav ul li a {
         background: white;
     }
 
-    .social {
-        
-    }
 }
 
 .btn {
@@ -333,4 +330,28 @@ color: white;
 .btn-1:hover{
     background: skyblue;
     color: white;
+}
+@media(max-width:900px) {
+
+    .btn-1 {
+       width: 34vw;
+       height: 7vh;
+    }
+
+}
+@media(max-width:600px) {
+
+    .btn-1 {
+       width: 36vw;
+       height: 6vh;
+    }
+
+}
+@media(max-width:500px) {
+
+    .btn-1 {
+       width: 36vw;
+       height: 6vh;
+    }
+
 }
