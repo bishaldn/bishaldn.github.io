@@ -189,6 +189,7 @@ h1 {
     color: rgb(56, 56, 56);
     height: 50vh;
     margin-top: 50px;
+    margin-bottom: -155px;
 }
 
 .container-img {
@@ -264,6 +265,23 @@ h1 {
 .btn {
     margin-top: 30px;
     margin-left: 7px;
+    display: flex;
+    gap:1.5vw;
+}
+.git-btn{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.git-icon-img{
+width: 52px;
+}
+.shape{
+    background: #7474ce;
+    width: auto;
+    height: 401px;
+    border-radius: 74% 26% 0% 100% / 100% 0% 100% 0% ;
+    margin-bottom: -206px;
 }
 @media(max-width:980px){
     .project-container {
@@ -303,4 +321,7 @@ h1 {
         width: 30vw;
         height: 6vh;
     }
+    .git-icon-img{
+        width: 39px;
+        }
 }
