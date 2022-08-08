@@ -24,7 +24,8 @@ html {
 }
 
 body {
-    background-color: #fff;
+
+    color: rgb(56, 56, 56);
     height: 100vh;
     overflow-x: hidden;
 }
@@ -181,83 +182,125 @@ h1 {
     color: #306bdb;
 }
 
-.project-1 {
-    width: 25vw;
-    height: 56vh;
+.project-container {
     display: flex;
-    text-align: center;
-    flex-direction: column;
-    margin-top: 13vh;
-    border-radius: 3%;
-    background: aliceblue;
+    background: rgb(248, 248, 248);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    color: rgb(56, 56, 56);
+    height: 50vh;
+    margin-top: 50px;
 }
 
-.p-tl {
-    height: 7vh;
+.container-img {
+    width: 50%;
+    width: 50%;
+    margin: 26px 20px;
     text-align: center;
-}
-
-.p-des {
-    height: fit-content;
-    font-size: 12px;
-    font-weight: 500;
-    color: blueviolet;
 }
 
 .dice-demo {
-    width: 18vw;
-    height: 30vh;
-    text-align: center;
-    margin-top: 5vh;
-    margin-left: 3.5vw;
-    margin-right: 3.5vw;
-    border-radius: 5%;
+    width: 271px;
 }
 
-.github {
-    width: 30px;
+.project-1 {
+
+    width: 50%;
+    margin: 26px 20px;
 }
 
-.btn {
-    margin-top: 2vh;
+.p-tl {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 5px;
+    color: #6D83F2;
+}
+
+.p-des {
+    font-size: 15px;
+    color: gray;
+    margin-top: 12px;
+    margin-left: 7px;
+}
+
+.p-des-1 {
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: 7px;
 }
 
 .btn-more {
-    width: 90px;
-    height: 40px;
-    background: #6076e6;
+    width: 15vw;
+    height: 9vh;
+    background: linear-gradient(134deg, #6A98F0 0%, #4961DC 99%);
     color: white;
+    font-size: 15px;
     border: none;
-    border-radius: 6%;
+    border-radius: 5px;
+    cursor: pointer;
 }
-
-.live-demo-btn {
+.btn-more-1{
+    width: 15vw;
+    height: 9vh;
+    background: linear-gradient(134deg, #6A98F0 0%, #4961DC 99%);
     color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-more:hover{
+    background:white;
+    color:#306bdb;
+
+}
+.live-demo-btn {
     text-decoration: none;
-    font-size: 13px;
+    color: white;
+}
+.live-demo-btn:hover{
+    color:black;
 }
 
-.project-container {
-    display: flex;
-    justify-content: space-around;
+.btn {
+    margin-top: 30px;
+    margin-left: 7px;
 }
-
-@media(max-width:980px) {
+@media(max-width:980px){
     .project-container {
+        display: flex;
         flex-direction: column;
+        height: auto;
+    }
+    .container-img{
+        width: auto;
         justify-content: center;
-    }
-
-    .project-1 {
-        width: 87vw;
-        height: 68vh;
-    }
-
-    .dice-demo {
-        height: 40vh;
         text-align: center;
-        border-radius: 5%;
-        width: 76vw;
-        margin: auto 5vw;
+        margin: 0;
+    }
+    .project-1 {
+        width: auto;
+       
+    }
+    .dice-demo{
+        margin-left:0;
+        margin-right:0;
+        width:320px;
+    }
+    .btn-more{
+        width: 20vw;
+    }
+    .btn-more-1{
+        width:20vw;
+    }
+    
+}
+@media(max-width:600px){
+    .btn-more{
+        width: 30vw;
+        height: 6vh;
+    }
+    .btn-more-1{
+        width: 30vw;
+        height: 6vh;
     }
 }
