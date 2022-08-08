@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.img-h {
+    width: 16px;
+    margin-right: 7px;
+    color: blueviolet;
+}
+
+.img-h4 {
+    width: 16px;
+    margin-right: 7px;
+    color: blueviolet;
+    height: 20px;
+    margin-top: 3px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #fff;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    display: flex;
+    width: 100%;
+    margin-top: 2vh;
+    margin-left: 4px;
+    background: #fff;
+
+}
+
+nav h4 {
+    color: rgb(19, 105, 105);
+    margin-top: 3px;
+    font-size: 24px;
+    margin-left: 4vw;
+}
+
+nav ul {
+    display: flex;
+    gap: 3vw;
+    list-style: none;
+    justify-content: end;
+    width: 70%;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+nav ul li {
+    font-size: 13px;
+}
+
+nav ul li a:link,
+na ul li a:visited {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.active {
+    color: #fffbfb;
+    background: #306bdb;
+    width: 96px;
+    height: 27px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.active:hover {
+    color: white;
+}
+
+
+nav ul li a:hover {
+    color: #306bdb;
+}
+
+.mobile-nav-btn {
+    margin-right: 16px;
+    display: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.nav-icon[name="close-nav"] {
+    display: none;
+}
+
+.nav-icon {
+    width: 30px;
+}
+
+
+nav ul li a {
+    color: black;
+}
+
+@media(max-width:980px) {
+    .mobile-nav-btn {
+        display: block;
+        z-index: 999;
+
+    }
+
+    .nav {
+        position: relative;
+        margin-top: 0;
+    }
+
+    .nav h4 {
+        color: darkslategray;
+        font-size: 20px;
+        width: 170%;
+        margin-left: 10px;
+    }
+
+    .nav-list {
+        /*display: none;*/
+        width: 45%;
+        height: 31vh;
+        background: linear-gradient(to right, #a29b93, #06a7f4);
+        position: absolute;
+        top: 36px;
+        left: 51%;
+        right: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    .show .nav-list {
+        opacity: 1;
+        transform: translateX(0);
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .show .mobile-nav-btn .nav-icon[name="hamB"] {
+        display: none;
+    }
+
+    .show .mobile-nav-btn .nav-icon[name="close-nav"] {
+        display: block;
+    }
+
+}
+
+.container {
+    margin: auto 5vw;
+    margin-top: 10vh;
+}
+
+.title-icon {
+    width: 36px;
+    margin-right: 1vw;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #306bdb;
+}
+
+.project-1 {
+    width: 25vw;
+    height: 56vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 13vh;
+    border-radius: 3%;
+    background: aliceblue;
+}
+
+.p-tl {
+    height: 7vh;
+    text-align: center;
+}
+
+.p-des {
+    height: fit-content;
+    font-size: 12px;
+    font-weight: 500;
+    color: blueviolet;
+}
+
+.dice-demo {
+    width: 18vw;
+    height: 30vh;
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    border-radius: 5%;
+}
+
+.github {
+    width: 30px;
+}
+
+.btn {
+    margin-top: 2vh;
+}
+
+.btn-more {
+    width: 90px;
+    height: 40px;
+    background: #6076e6;
+    color: white;
+    border: none;
+    border-radius: 6%;
+}
+
+.live-demo-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width:980px) {
+    .project-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .project-1 {
+        width: 87vw;
+        height: 68vh;
+    }
+
+    .dice-demo {
+        height: 40vh;
+        text-align: center;
+        border-radius: 5%;
+        width: 76vw;
+        margin: auto 5vw;
+    }
+}
