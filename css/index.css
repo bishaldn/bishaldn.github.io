@@ -34,9 +34,8 @@ nav {
     width: 100%;
     display: flex;
     width: 100%;
-    margin-top: 2vh;
-    margin-left: 4px;
-    background: #fff;
+    height:43px;
+    background:linear-gradient(to right, #58D7E7, #FAF8E9); 
 
 }
 
@@ -168,7 +167,6 @@ nav ul li a {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-top: 2vh;
     }
 
     .main .hlw-txt {
@@ -234,7 +232,6 @@ nav ul li a {
 }
 
 .main {
-    margin-top: 1vh;
     display: flex;
     justify-content: space-around;
     background-image: url('../img/cloudBg.f28b5c6961fd82be839c.png');
@@ -399,7 +396,7 @@ pre {
     display: flex;
     justify-content: space-around;
     margin-top: -67px;
-    background: linear-gradient(to right, #0A7FE5, #EC02E6);
+    background: linear-gradient(to right, #7BEDE0, #4D3980);
     border-radius: 89% 11% 0% 100% / 100% 0% 100% 0% 
 
 }
@@ -408,7 +405,7 @@ pre {
     width: 346px;
 }
 .imgg{
-    background: #6A98F0;
+    background: linear-gradient(to right, #B763F7, #843CD8);
     border-radius: 73% 27% 60% 40% / 100% 0% 100% 0%;
     margin-top: -55px;
 }

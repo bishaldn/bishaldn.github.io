@@ -34,9 +34,8 @@ nav {
     width: 100%;
     display: flex;
     width: 100%;
-    margin-top: 2vh;
-    margin-left: 4px;
-    background: #fff;
+    height: 43px;
+    background: linear-gradient(to right, #58D7E7, #FAF8E9);
 
 }
 
@@ -180,7 +179,7 @@ h2 {
         /*display: none;*/
         width: 45%;
         height: 31vh;
-        background: linear-gradient(to right,#a29b93,#06a7f4);
+        background: linear-gradient(to right, #a29b93, #06a7f4);
         position: absolute;
         top: 36px;
         left: 51%;
