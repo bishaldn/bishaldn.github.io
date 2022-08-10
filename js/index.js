@@ -1,7 +1,6 @@
-
 $(document).ready(function () {
      $(window).scroll(function () {
-         var pos = $(document).scrollTop();
+         var pos = $(body).scrollTop();
          console.log(pos);
      //     if((pos>2)&& (pos<104)){
      //         $('.card-1').addClass(' animate__animated animate__backInRight');
