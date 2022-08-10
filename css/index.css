@@ -57,13 +57,12 @@ nav ul {
 }
 
 nav ul li {
-    font-size: 13px;
+    font-size: 23px;
 }
 
 nav ul li a:link,
 na ul li a:visited {
     display: inline-block;
-    text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
     color: black;
@@ -72,9 +71,8 @@ na ul li a:visited {
 .active {
     color: #fffbfb;
     background: #306bdb;
-    ;
-    width: 56px;
-    height: 23px;
+    width: 73px;
+    height: 30px;
     text-align: center;
     border-radius: 5px;
     border: 1px solid black;
@@ -453,6 +451,7 @@ pre {
         font-size: 11px;
     }
 }
+
 @media(max-width:400px) {
 
     pre {
