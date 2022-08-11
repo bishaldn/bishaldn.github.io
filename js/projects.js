@@ -13,10 +13,10 @@ $(document).ready(function () {
           if(pos>600 && pos<900){
                $('.three').addClass('animate__animated animate__rotateInUpRight')
           }
-          if(pos>1099 && pos<1224){
+          if(pos>1110 && pos<1359){
                $('.four').addClass('animate__animated animate__lightSpeedInLeft')
           }
-          if(pos>1500 && pos<1700){
+          if(pos>1500 && pos<2000){
                $('.five').addClass('animate__animated animate__fadeInUp')
           }
      });

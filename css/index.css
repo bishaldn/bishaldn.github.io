@@ -374,6 +374,7 @@ footer {
     color: white;
     font-size: 17px;
     height: 9vh;
+    margin-top: 90px;
 }
 
 pre {
@@ -426,11 +427,11 @@ pre {
 
     .imgg {
         text-align: center;
-        height: 180px;
+        height: 324px;
     }
 
     .img-code {
-        width: 200px;
+        width: 348px;
     }
 
     pre {
@@ -487,4 +488,89 @@ pre {
     color: black;
     font-size: 25px;
     padding-top: 60px
+}
+
+.center-Q-con {
+    margin-top: -140px;
+    display: flex;
+    justify-content: center;
+}
+
+.Q-container {
+    background-color: rgb(248, 248, 248);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    width: 55vw;
+    height: 38vh;
+    border-radius: 6px;
+}
+
+.Q-container h1 {
+    color: #1d1d4a;
+    text-align: center;
+    padding-top: 19px;
+}
+
+.q-text {
+    font-size: 16px;
+    text-align: center;
+    color: gray;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+.q-name {
+    text-align: -moz-center;
+    font-size: 14px;
+    color: gray;
+    font-weight: bolder;
+    margin-top: 14px;
+    margin-right: 83px;
+    text-align: right;
+}
+
+.btn-con {
+    text-align: center;
+    margin-top: 78px;
+}
+
+.btn-con button {
+    width: 14vw;
+    height: 7vh;
+    color: white;
+    background: #6969cc;
+    border: none;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.btn-con button:hover{
+    background: #4D3980;
+    color:white;
+}
+
+@media(max-width:980px) {
+    .center-Q-con {}
+
+    .Q-container {
+        width: 89vw;
+        height: 37vh;
+    }
+
+    .Q-container h1 {
+        font-size: 23px;
+    }
+
+    .q-text {
+        font-size: 15px;
+    }
+
+    .q-name {
+        font-size: 13px;
+    }
+
+    .btn-con {}
+
+    .btn-con button {
+        width: 41vw;
+        height: 50px;
+    }
 }
