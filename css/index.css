@@ -316,15 +316,22 @@ nav ul li a {
 .social {
     display: flex;
     gap: 2vw;
-    width: ;
     justify-content: left;
     cursor: pointer;
     margin-left: 25px;
     margin-top: 10px;
 }
 
-.social a:hover {
-    font-size: 50px;
+.social .github:hover {
+    animation: roll 2s linear infinite;
+}
+@keyframes roll {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 @media(max-width:800px) {
@@ -392,33 +399,19 @@ footer {
     height: 9vh;
     margin-top: 90px;
 }
-
-pre {
-    font-size: 15px;
-    color: rgb(11, 29, 119);
-}
-
-.code {
-    border-radius: 10px;
-    background-color: rgb(248, 248, 248);
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
-    width: auto;
-    height: 45vh;
-    padding: 80px 30px;
-}
-
 .card-img-code {
     margin: 10px 10px;
     display: flex;
     justify-content: space-around;
     margin-top: -67px;
-    background: #6d6dcc;
-    border-radius: 89% 11% 0% 100% / 100% 0% 100% 0%
+    background-image: linear-gradient(to bottom, #4050f4, #6a43e2, #8234d0, #9124bd, #9c0caa);
+    border-radius: 89% 11% 0% 100% / 100% 0% 100% 0%;
+
 }
 
 .img-code {
     width: 346px;
-    animation: move 3s linear infinite;
+    animation: move 6s linear infinite;
 }
 @keyframes move {
     0%{
@@ -434,9 +427,10 @@ pre {
 }
 
 .imgg {
-    background: linear-gradient(to right, #B763F7, #843CD8);
+    background-image: linear-gradient(to top, #c200f0, #a32fec, #833ee5, #6447db, #454bcf, #315dd8, #1a6ddf, #007ce4, #009df6, #00b6d5, #00c68b, #44ce24);
     border-radius: 73% 27% 60% 40% / 100% 0% 100% 0%;
     margin-top: -55px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 @media(max-width:980px) {
@@ -462,31 +456,6 @@ pre {
     .img-code {
         width: 348px;
     }
-
-    pre {
-        font-size: 18px;
-    }
-}
-
-@media(max-width:600px) {
-
-    pre {
-        font-size: 13px;
-    }
-}
-
-@media(max-width:500px) {
-
-    pre {
-        font-size: 11px;
-    }
-}
-
-@media(max-width:400px) {
-
-    pre {
-        font-size: 9px;
-    }
 }
 
 .shape {
@@ -507,8 +476,9 @@ pre {
 .shape-container {}
 
 .shape-2 {
-    background: #6d6dcc;
-    height: 25vh;
+    height: 52vh;
+    background-image: linear-gradient(to top, #4050f4, #6a43e2, #8234d0, #9124bd, #9c0caa);
+
     margin-top: -10px;
     margin-right: 10px;
     border-radius: 89% 11% 0% 100% / 0% 0% 100% 100%;
@@ -520,16 +490,16 @@ pre {
 }
 
 .center-Q-con {
-    margin-top: -140px;
     display: flex;
     justify-content: center;
+    
 }
 
 .Q-container {
     background-color: rgb(248, 248, 248);
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     width: 55vw;
-    height: 38vh;
+    height: 43vh;
     border-radius: 6px;
 }
 
@@ -581,7 +551,7 @@ pre {
 
     .Q-container {
         width: 89vw;
-        height: 37vh;
+        height: 45vh;
     }
 
     .Q-container h1 {
@@ -602,4 +572,41 @@ pre {
         width: 41vw;
         height: 50px;
     }
+}
+/* css for recent post */
+.post{
+    margin-top:-320px
+}
+.line{
+    background: #2c212e;
+    height: 2px;
+    margin: 19px 50px;
+}
+.rec-head{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+.recent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.post-content{
+    width: 45vw;
+    background: #fff7f7;
+    border-radius: 5px;
+}
+.post-content h3{
+    color: #4a167a;
+    margin-bottom: 15px;
+}
+.post-content p{
+    
+}
+.post-demo{
+    width: 45vw;
+    background: blueviolet;
+    border-radius: 5px;
 }
